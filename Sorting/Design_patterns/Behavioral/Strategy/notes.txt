@@ -1,0 +1,7 @@
+Strategy Design pattern: This helps you stategize behaviours which can be performed in different ways.
+Since this is behavioural desing pattern it helps you work with behaviours. and fulfils SOLID principles.
+
+Strategy is a behavioral design pattern that lets you define a family of algorithms, 
+put each of them into a separate class, and make their objects interchangeable.
+
+https://refactoring.guru/design-patterns/strategy
