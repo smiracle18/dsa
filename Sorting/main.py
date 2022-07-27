@@ -1,5 +1,6 @@
 from Strategies.bubble_sort import BubbleSort
 from Strategies.insertion_sort import InsertionSort
+from Strategies.selection_sort import SelectionSort
 
 from sorting import Sorting
 
@@ -15,6 +16,6 @@ if __name__ == "__main__":
     sorting = Sorting(strategy=InsertionSort())
     print(sorting.sort(arr))
 
-    sorting.set_strategy = BubbleSort()
+    sorting.set_strategy = SelectionSort()
     print(sorting.sort(arr))
 
