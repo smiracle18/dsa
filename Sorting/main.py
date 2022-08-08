@@ -1,8 +1,8 @@
+from sorting import Sorting
 from Strategies.bubble_sort import BubbleSort
 from Strategies.insertion_sort import InsertionSort
 from Strategies.selection_sort import SelectionSort
-
-from sorting import Sorting
+from Strategies.merge_sort import MergeSort
 
 
 if __name__ == "__main__":
@@ -17,5 +17,8 @@ if __name__ == "__main__":
     print(sorting.sort(arr))
 
     sorting.set_strategy = SelectionSort()
+    print(sorting.sort(arr))
+
+    sorting.set_strategy = MergeSort()
     print(sorting.sort(arr))
 
