@@ -4,7 +4,7 @@ from Strategies.insertion_sort import InsertionSort
 from Strategies.selection_sort import SelectionSort
 from Strategies.merge_sort import MergeSort
 from Strategies.quick_sort import Quicksort
-
+from Strategies.heap_sort import HeapSort
 
 if __name__ == "__main__":
 
@@ -25,5 +25,9 @@ if __name__ == "__main__":
     print('arr',arr)
 
     sorting.set_strategy = Quicksort()
+    print(sorting.sort(arr))
+    print('arr',arr)
+
+    sorting.set_strategy = HeapSort()
     print(sorting.sort(arr))
     print('arr',arr)
